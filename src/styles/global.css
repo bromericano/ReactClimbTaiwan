@@ -1,0 +1,9 @@
+#content {
+  background-image: url("../images/homeBackground.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

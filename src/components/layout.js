@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import '../styles/global.css';
 
 const Layout = ({ children }) => {
     return (
@@ -17,19 +18,19 @@ const Layout = ({ children }) => {
                         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/">Information</a>
                     </li>
                     <li class="nav-item mx-auto mt-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/" id="longDongNavLink">Long Dong</a>
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/LongDong" id="longDongNavLink">Long Dong</a>
                     </li>
                     <li class="nav-item mx-auto mt-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/">Re Hai</a>
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/ReHai">Re Hai</a>
                     </li>
                     <li class="nav-item mx-auto mt-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/">Big Cannon Cliff</a>
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/BigCannonCliff">Big Cannon Cliff</a>
                     </li>
                     <li class="nav-item mx-auto mt-3">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/">Guan Zi Ling</a>
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/GuanZiLing">Guan Zi Ling</a>
                     </li>
                     <li class="nav-item mx-auto mt-3 mb-3 mb-sm-0">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/">Shou Shan</a>
+                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="/ShouShan">Shou Shan</a>
                     </li>
                     </ul>
                 </div>

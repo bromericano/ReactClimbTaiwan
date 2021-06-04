@@ -4,13 +4,11 @@ import Layout from '../components/layout';
 // markup
 const IndexPage = () => {
   return (
-    <div id='content'>
-      <Layout>
-        <div>
-          <h1>Home</h1>
-        </div>
-      </Layout>
-    </div>
+    <Layout>
+      <div>
+        Guan Zi Ling
+      </div>
+    </Layout>
   )
 }
 
