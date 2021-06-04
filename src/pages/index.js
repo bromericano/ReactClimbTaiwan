@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from '../components/layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // markup
 const IndexPage = () => {
@@ -7,7 +8,7 @@ const IndexPage = () => {
     <div id='content'>
       <Layout>
         <div>
-          <h1>Home</h1>
+          <h1>Welcome to Climb Taiwan</h1>
         </div>
       </Layout>
     </div>
